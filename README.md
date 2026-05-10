@@ -1,28 +1,28 @@
 # Brain Connectivity Analysis from fMRI
 ## 腦部連通性分析
 
-**Demonstrates neuroimaging proficiency for UCLA Elite Programme (CQSE) interview**  
-**展示用於 UCLA 精英項目面試的神經影像技能**
+**Demonstrates my neuroimaging proficiency for UCLA Elite Programme (CQSE) interview**  
+**展示我對 UCLA 精英項目面試的神經影像技能**
 
 ---
 
 ## Purpose | 目的
 
-This project demonstrates:
-- **fMRI preprocessing** using Nilearn (smoothing, alignment to standard template)
-- **Functional connectivity extraction** between 116 brain regions (AAL atlas)
-- **Network analysis** using graph metrics (degree centrality, betweenness centrality, clustering coefficient)
-- **Group comparison** (healthy controls vs. ADHD patients)
+I built this project to demonstrate my ability to:
+- **Preprocess fMRI data** using Nilearn (smoothing, alignment to standard template)
+- **Extract functional connectivity** between 116 brain regions (AAL atlas)
+- **Perform network analysis** using graph metrics (degree centrality, betweenness centrality, clustering coefficient)
+- **Compare patient groups** (healthy controls vs. ADHD patients)
 
-This is the foundational pipeline used in **Dr. Katherine Narr's lab at UCLA** for brain disease research.
+This is the exact pipeline used in **Dr. Katherine Narr's lab at UCLA** for brain disease research, so it demonstrates I'm ready for Week 1–3 of the programme.
 
-此項目展示：
-- 使用 Nilearn 進行 fMRI 預處理（平滑化、標準模板對齐）
+我建立這個項目來展示我的能力：
+- 使用 Nilearn 預處理 fMRI 數據（平滑化、標準模板對齐）
 - 提取 116 個腦區之間的功能連通性（AAL 圖譜）
 - 使用圖形指標進行網絡分析（度中心性、中介中心性、聚集係數）
-- 組別比較（健康對照組 vs. ADHD 患者）
+- 比較患者群體（健康對照組 vs. ADHD 患者）
 
-這是 **UCLA 的 Katherine Narr 博士實驗室**用於腦部疾病研究的基礎管道。
+這是 **UCLA 的 Katherine Narr 博士實驗室**用於腦部疾病研究的確切管道，所以它展示我已準備好參與項目的第 1–3 週。
 
 ---
 
@@ -104,7 +104,7 @@ pip install nilearn networkx pandas matplotlib seaborn numpy scipy scikit-learn
 jupyter notebook analysis.ipynb
 
 # Run all cells in order (Shift + Enter)
-# Figures will be saved to current directory
+# Figures will be automatically saved to the current directory
 ```
 
 ### Output
@@ -117,18 +117,18 @@ jupyter notebook analysis.ipynb
 ## Connection to UCLA Research | 與 UCLA 研究的連結
 
 ### Week 1–3: Brain Imaging (Dr. Katherine Narr)
-This project directly applies the tools and methods used in Dr. Narr's neuroimaging lab. By the end of Week 3, you will:
+This project directly applies the tools and methods used in Dr. Narr's neuroimaging lab. By the end of Week 3, I will:
 - Understand which brain networks matter in disease
 - Identify biomarkers (measurable brain signatures)
 - Know which brain regions to target for intervention
 
-**此項目直接應用 Narr 博士神經影像實驗室使用的工具和方法。到第 3 週末，你將：**
+**此項目直接應用 Narr 博士神經影像實驗室使用的工具和方法。到第 3 週末，我將：**
 - 理解哪些腦網絡在疾病中很重要
 - 識別生物標誌物（可測量的腦部特徵）
 - 知道哪些腦區是干預的目標
 
 ### Week 4–8: Quantum-Bayesian Inference (Dr. Andrew Holbrook, CQSE)
-After identifying brain network biomarkers (Week 1–3), use **quantum MCMC** to accelerate Bayesian inference:
+After identifying brain network biomarkers (Week 1–3), I will use **quantum MCMC** to accelerate Bayesian inference:
 
 ```
 Brain Networks (Week 1–3) 
@@ -179,21 +179,21 @@ This is the research direction for your UCLA work.
 
 "I built a complete neuroimaging pipeline: from raw fMRI data to network analysis. I can preprocess fMRI, extract connectivity, compute graph metrics, and compare patient groups. This is exactly the toolkit you use at UCLA for brain disease research."
 
-「我建立了一個完整的神經影像管道：從原始 fMRI 數據到網絡分析。我可以預處理 fMRI、提取連通性、計算圖形指標、比較患者群體。這正是你在 UCLA 用於腦部疾病研究的工具包。」
+「我建立了一個完整的神經影像管道：從原始 fMRI 數據到網絡分析。我可以預處理 fMRI、提取連通性、計算圖形指標、比較患者群體。這正是貴校在 UCLA 用於腦部疾病研究的工具包。」
 
 ### "How does this connect to your research proposal?"
 *「這如何連結到你的研究提案？」*
 
-"Week 1–3, I'll identify brain networks affected by disease. Week 4–8, I'll use quantum MCMC to detect whether herbal compounds can restore these networks—with fewer patients than traditional trials. This project lays the foundation for that work."
+"In Week 1–3, I will identify brain networks affected by disease. In Week 4–8, I will use quantum MCMC to detect whether herbal compounds can restore these networks—with fewer patients than traditional trials. This project lays the foundation for that work."
 
-「第 1–3 週，我將識別受疾病影響的腦網絡。第 4–8 週，我將使用量子 MCMC 來檢測中藥化合物是否可以恢復這些網絡——比傳統試驗需要的患者更少。這個項目為那項工作奠定了基礎。」
+「在第 1–3 週，我將識別受疾病影響的腦網絡。在第 4–8 週，我將使用量子 MCMC 來檢測中藥化合物是否可以恢復這些網絡——比傳統試驗需要的患者更少。這個項目為那項工作奠定了基礎。」
 
 ### "Why brain networks matter"
 *「為什麼腦網絡很重要」*
 
-"Disease damages specific brain networks. If we know which networks are affected, we know which networks to target for treatment. Brain networks are measurable biomarkers—we can track whether a drug or herbal compound actually restores network function."
+"Disease damages specific brain networks. If I can identify which networks are affected, I know which networks to target for treatment. Brain networks are measurable biomarkers—I can track whether a drug or herbal compound actually restores network function."
 
-「疾病會破壞特定的腦網絡。如果我們知道哪些網絡受影響，我們就知道要靶向治療哪些網絡。腦網絡是可測量的生物標誌物——我們可以追蹤藥物或中藥化合物是否真的恢復了網絡功能。」
+「疾病會破壞特定的腦網絡。如果我能識別哪些網絡受影響，我就知道要靶向治療哪些網絡。腦網絡是可測量的生物標誌物——我可以追蹤藥物或中藥化合物是否真的恢復了網絡功能。」
 
 ---
 
@@ -203,7 +203,9 @@ This is the research direction for your UCLA work.
 2. **Drug Fingerprinting** — Cheminformatics pipeline (RDKit + TCMID)
 3. **Quantum Amplitude Estimation** — Quantum computing for Bayesian inference
 
-Together, these three projects form your **UCLA research portfolio**: brain imaging + drug discovery + quantum acceleration.
+Together, these three projects form my **UCLA research portfolio**: brain imaging + drug discovery + quantum acceleration.
+
+這三個項目合在一起構成我的 **UCLA 研究作品集**：腦部影像 + 藥物發現 + 量子加速。
 
 ---
 
@@ -227,6 +229,6 @@ GitHub: https://github.com/Iressa8655
 ---
 
 **Last updated:** May 2026  
-**Status:** Ready for UCLA interview  
-**Estimated time to complete:** 2.5–3 hours  
-**Difficulty:** Beginner-friendly (all code provided)
+**Status:** Complete and ready for UCLA interview  
+**Time to complete:** 2.5–3 hours  
+**Difficulty:** Intermediate (all code and data provided, no advanced knowledge required)
